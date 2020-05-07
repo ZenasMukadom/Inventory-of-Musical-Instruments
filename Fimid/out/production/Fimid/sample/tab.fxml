@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.tabpane">
+   <children>
+      <TabPane fx:id="tabview" layoutY="1.0" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab fx:id="insertTab" text="INSERT">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" styleClass="bgimagetab1" stylesheets="@bgimagetab1.css">
+                     <children>
+                        <Label layoutX="14.0" layoutY="34.0" prefHeight="26.0" prefWidth="76.0" text="ID" textFill="#8a2424">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font></Label>
+                        <Label layoutX="172.0" layoutY="34.0" prefHeight="26.0" prefWidth="121.0" text="Family Name" textFill="#9a2424">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font></Label>
+                        <Label layoutX="319.0" layoutY="34.0" prefHeight="26.0" prefWidth="116.0" text="Brand Name" textFill="#901717">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font></Label>
+                        <Label layoutX="466.0" layoutY="34.0" prefHeight="26.0" prefWidth="119.0" text="Model Name" textFill="#9a2525">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font></Label>
+                        <Label layoutX="24.0" layoutY="160.0" prefHeight="26.0" prefWidth="76.0" text="Price" textFill="#942828">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font></Label>
+                        <Label layoutX="172.0" layoutY="160.0" prefHeight="26.0" prefWidth="119.0" text="Shop Name" textFill="#9a2424">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font></Label>
+                        <Label layoutX="319.0" layoutY="160.0" prefHeight="26.0" prefWidth="104.0" text="Shop Location" textFill="#942020">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font></Label>
+                        <Label layoutX="466.0" layoutY="160.0" prefHeight="26.0" prefWidth="106.0" text="Availability" textFill="#901c1c">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font></Label>
+                        <TextField fx:id="insertFname" layoutX="174.0" layoutY="70.0" prefHeight="25.0" prefWidth="120.0" />
+                        <TextField fx:id="insertBname" layoutX="316.0" layoutY="70.0" prefHeight="25.0" prefWidth="120.0" />
+                        <TextField fx:id="insertMname" layoutX="466.0" layoutY="70.0" prefHeight="25.0" prefWidth="120.0" />
+                        <TextField fx:id="insertPrice" layoutX="14.0" layoutY="202.0" prefHeight="25.0" prefWidth="120.0" />
+                        <TextField fx:id="insertSname" layoutX="172.0" layoutY="202.0" prefHeight="25.0" prefWidth="120.0" />
+                        <TextField fx:id="insertLname" layoutX="319.0" layoutY="202.0" prefHeight="25.0" prefWidth="120.0" />
+                        <TextField fx:id="insertAvail" layoutX="466.0" layoutY="202.0" prefHeight="25.0" prefWidth="120.0" />
+                        <TextField fx:id="insertId" layoutX="14.0" layoutY="70.0" prefHeight="25.0" prefWidth="120.0" />
+                        <Button fx:id="insertButton" layoutX="470.0" layoutY="310.0" mnemonicParsing="false" onAction="#insertButtonAction" prefHeight="37.0" prefWidth="112.0" text="INSERT">
+                           <font>
+                              <Font name="System Bold" size="22.0" />
+                           </font>
+                        </Button>
+                        <Label fx:id="insertLabel" layoutX="336.0" layoutY="311.0" prefHeight="46.0" prefWidth="133.0" textFill="#9e2626">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font></Label>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab fx:id="deleteTab" text="DELETE">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" styleClass="bgimagetab1" stylesheets="@bgimagetab1.css">
+                     <children>
+                        <TextField fx:id="deleteid" layoutX="14.0" layoutY="65.0" prefHeight="25.0" prefWidth="120.0" />
+                        <Label layoutX="14.0" layoutY="20.0" prefHeight="31.0" prefWidth="116.0" text="ID" textFill="#941515">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font></Label>
+                        <Label fx:id="deleteLabel" layoutX="338.0" layoutY="304.0" prefHeight="49.0" prefWidth="124.0" textFill="#901f1f">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font></Label>
+                        <Button fx:id="deleteButton" layoutX="462.0" layoutY="304.0" mnemonicParsing="false" onAction="#deleteButtonAction" prefHeight="46.0" prefWidth="124.0" text="DELETE">
+                           <font>
+                              <Font name="System Bold" size="22.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+            <Tab fx:id="updateTab" text="UPDATE">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" styleClass="bgimagetab1" stylesheets="@bgimagetab1.css">
+                     <children>
+                        <Label layoutX="14.0" layoutY="34.0" prefHeight="32.0" prefWidth="103.0" text="ID" textFill="#941313">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font></Label>
+                        <Label layoutX="167.0" layoutY="34.0" prefHeight="32.0" prefWidth="103.0" text="PRICE" textFill="#9a2727">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font></Label>
+                        <Label layoutX="323.0" layoutY="34.0" prefHeight="32.0" prefWidth="103.0" text="Availability" textFill="#972626">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font></Label>
+                        <TextField fx:id="updateid" layoutX="14.0" layoutY="82.0" prefHeight="25.0" prefWidth="112.0" />
+                        <TextField fx:id="updateprice" layoutX="167.0" layoutY="82.0" prefHeight="25.0" prefWidth="112.0" />
+                        <TextField fx:id="updateavil" layoutX="323.0" layoutY="82.0" prefHeight="25.0" prefWidth="112.0" />
+                        <Button fx:id="updateButton" layoutX="468.0" layoutY="304.0" mnemonicParsing="false" onAction="#updateButtonAction" prefHeight="48.0" prefWidth="118.0" text="UPDATE">
+                           <font>
+                              <Font name="System Bold" size="22.0" />
+                           </font>
+                        </Button>
+                        <Label fx:id="updateLabel" layoutX="340.0" layoutY="304.0" prefHeight="49.0" prefWidth="126.0" textFill="#972424">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font></Label>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

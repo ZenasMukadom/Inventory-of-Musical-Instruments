@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Fimid">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Fimid/Fimid.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,5 @@
+.bgimage{
+
+    -fx-background-image:url("Guitar.jpg");
+    -fx-background-size:100% 100%;
+}

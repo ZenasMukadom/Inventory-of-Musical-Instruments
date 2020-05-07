@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.tabpanefinal">
+   <children>
+      <AnchorPane layoutY="-2.0" prefHeight="400.0" prefWidth="811.0">
+         <children>
+            <TabPane layoutY="8.0" prefHeight="391.0" prefWidth="803.0" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                <Tab fx:id="keyboardtab" text="Keyboard">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <TableView fx:id="keyboardobj" layoutX="6.0" layoutY="1.0" prefHeight="359.0" prefWidth="796.0">
+                                <columns>
+                                  <TableColumn prefWidth="56.0" text="ID" />
+                                  <TableColumn prefWidth="115.0" text="Family Name" />
+                                    <TableColumn prefWidth="116.0" text="Brand Name" />
+                                    <TableColumn prefWidth="109.0" text="Model Name" />
+                                    <TableColumn prefWidth="88.0" text="Price" />
+                                    <TableColumn prefWidth="99.0" text="Shop Name" />
+                                    <TableColumn prefWidth="128.0" text="Shop Location" />
+                                    <TableColumn prefWidth="84.0" text="Availability" />
+                                </columns>
+                              </TableView>
+                           </children>
+                        </AnchorPane>
+                  </content>
+                </Tab>
+                  <Tab fx:id="guitartab" text="Guitar">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="362.0" prefWidth="742.0">
+                           <children>
+                              <TableView prefHeight="359.0" prefWidth="803.0">
+                                 <columns>
+                                    <TableColumn fx:id="id1" prefWidth="56.0" text="ID" />
+                                    <TableColumn fx:id="familyName1" prefWidth="115.0" text="Family Name" />
+                                    <TableColumn fx:id="brandName1" prefWidth="116.0" text="Brand Name" />
+                                    <TableColumn fx:id="modelName1" prefWidth="109.0" text="Model Name" />
+                                    <TableColumn fx:id="pricen1" prefWidth="88.0" text="Price" />
+                                    <TableColumn fx:id="shopName1" prefWidth="99.0" text="Shop Name" />
+                                    <TableColumn fx:id="shopLocation1" prefWidth="128.0" text="Shop Location" />
+                                    <TableColumn fx:id="availability1" prefWidth="84.0" text="Availability" />
+                                 </columns>
+                              </TableView>
+                           </children></AnchorPane>
+                    </content>
+                  </Tab>
+                  <Tab fx:id="drumtab" text="Drum">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <TableView prefHeight="359.0" prefWidth="803.0">
+                                 <columns>
+                                    <TableColumn prefWidth="56.0" text="ID" />
+                                    <TableColumn prefWidth="115.0" text="Family Name" />
+                                    <TableColumn prefWidth="116.0" text="Brand Name" />
+                                    <TableColumn prefWidth="109.0" text="Model Name" />
+                                    <TableColumn prefWidth="88.0" text="Price" />
+                                    <TableColumn prefWidth="99.0" text="Shop Name" />
+                                    <TableColumn prefWidth="128.0" text="Shop Location" />
+                                    <TableColumn prefWidth="84.0" text="Availability" />
+                                 </columns>
+                              </TableView>
+                           </children></AnchorPane>
+                    </content>
+                  </Tab>
+                  <Tab fx:id="saxophonetab" text="Saxophone">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <TableView prefHeight="359.0" prefWidth="803.0">
+                                 <columns>
+                                    <TableColumn prefWidth="56.0" text="ID" />
+                                    <TableColumn prefWidth="115.0" text="Family Name" />
+                                    <TableColumn prefWidth="116.0" text="Brand Name" />
+                                    <TableColumn prefWidth="109.0" text="Model Name" />
+                                    <TableColumn prefWidth="88.0" text="Price" />
+                                    <TableColumn prefWidth="99.0" text="Shop Name" />
+                                    <TableColumn prefWidth="128.0" text="Shop Location" />
+                                    <TableColumn prefWidth="84.0" text="Availability" />
+                                 </columns>
+                              </TableView>
+                           </children></AnchorPane>
+                    </content>
+                  </Tab>
+                  <Tab fx:id="violintab" text="Violin">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <TableView prefHeight="359.0" prefWidth="803.0">
+                                 <columns>
+                                    <TableColumn prefWidth="56.0" text="ID" />
+                                    <TableColumn prefWidth="115.0" text="Family Name" />
+                                    <TableColumn prefWidth="116.0" text="Brand Name" />
+                                    <TableColumn prefWidth="109.0" text="Model Name" />
+                                    <TableColumn prefWidth="88.0" text="Price" />
+                                    <TableColumn prefWidth="99.0" text="Shop Name" />
+                                    <TableColumn prefWidth="128.0" text="Shop Location" />
+                                    <TableColumn prefWidth="84.0" text="Availability" />
+                                 </columns>
+                              </TableView>
+                           </children></AnchorPane>
+                    </content>
+                  </Tab>
+                  <Tab fx:id="pianotab" text="Piano">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <TableView prefHeight="359.0" prefWidth="803.0">
+                                 <columns>
+                                    <TableColumn fx:id="id" prefWidth="56.0" text="ID" />
+                                    <TableColumn fx:id="familyName" prefWidth="115.0" text="Family Name" />
+                                    <TableColumn fx:id="brandName" prefWidth="116.0" text="Brand Name" />
+                                    <TableColumn fx:id="modelName" prefWidth="109.0" text="Model Name" />
+                                    <TableColumn fx:id="pricen" prefWidth="88.0" text="Price" />
+                                    <TableColumn fx:id="shopName" prefWidth="99.0" text="Shop Name" />
+                                    <TableColumn fx:id="shopLocation" prefWidth="128.0" text="Shop Location" />
+                                    <TableColumn fx:id="availability" prefWidth="84.0" text="Availability" />
+                                 </columns>
+                              </TableView>
+                           </children></AnchorPane>
+                    </content>
+                  </Tab>
+              </tabs>
+            </TabPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
