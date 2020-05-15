@@ -21,23 +21,23 @@ The Client will be able to view all the musical instruments which are available 
 
 ### IMIS Login Page
 
-![alt text](images/github-IMIS_Login_Page.png)
+![](images/IMIS_Login_Page.png)
 
 ### IMIS Admin Insert Page
 
-![alt text](images/github-IMIS_Insert_Page.png)
+![](images/IMIS_Insert_Page.png)
 
 ### IMIS Admin Update Page
 
-![alt text](images/github-IMIS_Update_Page.png)
+![](images/IMIS_Update_Page.png)
 
 ### IMIS Admin Delete Page
 
-![alt text](images/github-IMIS_Delete_Page.png)
+![](images/IMIS_Delete_Page.png)
 
 ### IMIS Customer Page
 
-![alt text](images/github-IMIS_Customer_Page.png)
+![](images/IMIS_Customer_Page.png)
 
 
 
