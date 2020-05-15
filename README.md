@@ -29,7 +29,7 @@ The Client will be able to view all the musical instruments which are available 
 
 ### IMIS Admin Update Page
 
-![](images/IMIS_Update_Page.png)
+![](images/IMIS_UpdatePage.png)
 
 ### IMIS Admin Delete Page
 
