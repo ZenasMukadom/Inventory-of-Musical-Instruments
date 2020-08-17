@@ -1,8 +1,7 @@
 # Inventory of Musical Instruments
 
-Inventory of Musical Instruments is a DBMS which is created for the various musical instruments which are present in the market. The Database will consist of different types of Musical instruments like Electronic Keyboard, Guitar, Drums and many more. The Database will consist the name of the musical instrument, brand and model number. It will give a clear view to the users.The System will consist two logins, Customers and Admin.
-The Admin will be able to manage details of the musical instruments by perform sql operations such as insert, update and delete.
-The Client will be able to view all the musical instruments which are available in this inventory.
+Inventory of Musical Instruments is a DBMS that is created for the various musical instruments which are present in the market. The Database will consist of different types of Musical instruments like Electronic Keyboard, Guitar, Drums, and many more. The Database will consist the name of the musical instrument, brand, and model number. 
+It will give a clear view to the users. The System will consist of two logins, Customers and Admin. The Admin will be able to manage details of the musical instruments by performing SQL operations such as insert, update, and delete. The Client will be able to view all the musical instruments which are available in this inventory.
  
 
 
